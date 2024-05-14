@@ -14,5 +14,4 @@ flowchart TD
     F --> I(no)
     I --> B
     H --> J([Fin])
-    
 ```
