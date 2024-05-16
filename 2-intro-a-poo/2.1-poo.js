@@ -8,11 +8,17 @@ const Person = function (firstName, birthYear) {
   this.birthYear = birthYear;
   // console.log(this);
   
-  // MUUUUY mala práctica ⬇️
-  this.calcAge = function (params) {
-    console.log(2024 - this.birthYear);
-  }
+   //MUUUUY mala práctica ⬇️
+  // this.calcAge = function () {
+  //   console.log(2024 - this.birthYear);
+  // }
 }
+
+Person.prototype.calcAge = function() {
+  console.log(2024 - this.birthYear);
+}
+
+Person.prototype.species = 'Homo Sapiens'
 
 /* 
 * creación de nuestro objeto usando la palabra reservada new 
@@ -23,6 +29,7 @@ const fulano = new Person('Fulano', 2005);
 console.log(yaxche)
 yaxche.calcAge()
 console.log(fulano)
+console.log(yaxche.species)
 
 /* 
 * Lo que está sucediendo por detrás:
@@ -58,3 +65,24 @@ console.log(gilberto);
 ? 3. {} se liga al prototipo
 * 4. la funcion constructora nos regresa nuestro objeto [yaxche, fulano]
 */
+
+// console.log(yaxche.__proto__)
+// console.log(fulano.__proto__)
+
+// console.log(Person.prototype)
+// console.log(Person.prototype === yaxche.__proto__)
+// Person.protypeOfIntances
+// console.dir(Person.__proto__)
+
+const arr = [1, 2, 3];
+const arr2 = [4, 5, 6];
+arr.push(4)
+console.log(arr)
+console.log(arr2)
+
+console.log(arr.__proto__)
+
+const arr3 = new Array
+const arr4 = []
+
+
