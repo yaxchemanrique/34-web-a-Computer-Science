@@ -74,15 +74,25 @@ console.log(gilberto);
 // Person.protypeOfIntances
 // console.dir(Person.__proto__)
 
-const arr = [1, 2, 3];
+const arr1 = [1, 2, 3];
 const arr2 = [4, 5, 6];
-arr.push(4)
-console.log(arr)
+arr1.push(4)
+console.log(arr1)
 console.log(arr2)
 
-console.log(arr.__proto__)
+console.log(arr1.__proto__)
 
 const arr3 = new Array
 const arr4 = []
 
+// ⚠️ Úsese con precaución
+Array.prototype.average = function () {
+  let acumulador = 0;
+  for (let i = 0; i < this.length; i++) {
+    acumulador += this[i];
+  }
+  return acumulador / this.length;
+}
+
+console.log(arr1.average());
 
