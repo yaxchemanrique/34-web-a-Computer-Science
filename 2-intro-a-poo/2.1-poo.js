@@ -95,4 +95,3 @@ Array.prototype.average = function () {
 }
 
 console.log(arr1.average());
-
