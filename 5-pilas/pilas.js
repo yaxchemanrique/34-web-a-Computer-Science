@@ -28,3 +28,23 @@ class Pila{
         console.log(this.datos);
     }
 }
+
+//Implementamos la pila
+
+let pila = new Pila()
+
+//agrego datos a mi pila
+pila.push(1)
+pila.push(2)
+pila.push(3)
+pila.push(4)
+pila.push(5)
+pila.push("Esta es una cadena")
+//imprimo mis datos
+pila.print()
+//eliminar datos
+let datoEliminado = pila.pop()
+//imprimo mis datos
+pila.print()
+
+console.log(`El dato eliminado es: ${datoEliminado}`);
