@@ -1,0 +1,11 @@
+1.  Invertir una cadena:
+        Crea una función que reciba una cadena como argumento y use una pila para invertir el orden de los caracteres de la cadena.
+
+2,  Comprobar balanceo de paréntesis:
+        Escribe una función que use una pila para verificar si los paréntesis en una expresión están balanceados. Por ejemplo, la expresión "(a+b)" está balanceada, pero "((a+b)" no lo está.
+
+3.  Convertir número decimal a binario (OPCIONAL):
+        Implementa una función que convierta un número decimal a su representación binaria usando una pila.
+
+4.   Eliminar elementos duplicados de una pila:
+        Escribe una función que elimine los elementos duplicados de una pila, manteniendo el último de cada elemento en la pila.

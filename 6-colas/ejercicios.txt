@@ -1,0 +1,11 @@
+ 1.  Invertir una cola:
+        Crea una función que tome una instancia de Cola y la invierta.
+
+ 2.  Simular un sistema de impresión:
+        Implementa un sistema donde los trabajos de impresión se encolan y se procesan en orden de llegada.
+
+3.   Comprobar si una cola es un palíndromo:
+        Escribe una función que verifique si los elementos de una cola forman un palíndromo.
+
+4.   Merge de dos colas:
+        Crea una función que tome dos colas y las mezcle en una sola cola, manteniendo el orden relativo de los elementos de cada cola original.
