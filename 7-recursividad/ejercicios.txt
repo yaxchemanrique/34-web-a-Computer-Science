@@ -1,0 +1,21 @@
+1.  Suma de una Lista:
+        Descripción: Implementa una función recursiva que calcule la suma de todos los elementos de una lista de números.
+        Requisitos:
+            Debe ser recursiva.
+            Debe aceptar una lista de números.
+            Debe devolver la suma de los elementos.
+            La lista vacía debe devolver 0.
+        Ejemplo:
+            Entrada: [1, 2, 3, 4, 5]
+            Salida: 15
+
+2.  Secuencia de Fibonacci:
+        Descripción: Implementa una función recursiva que calcule el n-ésimo término de la secuencia de Fibonacci.
+        Requisitos:
+            Debe ser recursiva.
+            Debe aceptar un número entero n.
+            Debe devolver el n-ésimo término de la secuencia.
+            Debe manejar los casos base n = 0 y n = 1.
+        Ejemplo:
+            Entrada: 6
+            Salida: 8
